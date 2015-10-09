@@ -4,9 +4,11 @@
   "description": "A mini project to do a workshop of Hapijs",
   "main": "index.js",
   "dependencies": {
+    "handlebars": "^4.0.3",
     "hapi": "^10.4.1",
     "inert": "^3.1.0",
-    "makemehapi": "^3.1.0"
+    "makemehapi": "^3.1.0",
+    "vision": "^3.0.0"
   },
   "devDependencies": {},
   "scripts": {
