@@ -13,7 +13,6 @@ server.route({
     handler: function (request, reply) {
         var body = '';
         request.payload.file.on('data', function (data){
-
           body += data
         });
 
@@ -29,8 +28,6 @@ server.route({
 
             reply(JSON.stringify(response));
         });
-
-        
     },
     config: {
         payload: {

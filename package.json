@@ -4,6 +4,7 @@
   "description": "A mini project to do a workshop of Hapijs",
   "main": "index.js",
   "dependencies": {
+    "boom": "^2.9.0",
     "h2o2": "^4.0.1",
     "handlebars": "^4.0.3",
     "hapi": "^10.4.1",
