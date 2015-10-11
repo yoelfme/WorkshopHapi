@@ -19,9 +19,7 @@ server.route({
     method: 'GET',
     path: '/set-cookie',
     handler: function(request, reply) {
-        reply({
-            message: 'success',
-        }).state('session', { key: 'makemehapi' })
+        reply('success').state('session', { key: 'makemehapi' })
     },
     config: {
         state: {
